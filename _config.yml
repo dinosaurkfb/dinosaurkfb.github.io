@@ -9,14 +9,22 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : Fanbin's Home
 tagline: Site Tagline
-author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-  feedburner : feedname
+meta:
+  author :
+    name : Fanbin Kong
+    email : kfbuniversity@gmail.com
+    github : dinosaurkfb
+    twitter : dinosaurkfb
+    feedburner : feedname
+    disqus: fanbin
+    gcse: 017398255562556979282:fgju5hni5jg
+    gravatar: b80acc879e4d11bc64ce38f03e19014d
+
+  disqus: disqus.com/embed.js
+  gapi: http://www.google.com/jsapi
+  gravatar: http://en.gravatar.com/avatar/
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -26,7 +34,7 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : http://username.github.io
+production_url : http://fanbin.in
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
