@@ -1,6 +1,7 @@
 
 [Disqus]: http://disqus.com/
 [elf+js]: http://elfjs.com/
+[SimpleGray]: https://github.com/mytharcher/SimpleGray
 [ER]: http://www.errorrik.com/er/
 [GitHub]: https://github.com/
 [Google Custom Search]: http://www.google.com/cse/
@@ -12,4 +13,3 @@
 [jslib]: https://github.com/elfjs/jslib/
 [jslib-builder]: http://github.com/elfjs/jslib-builder/
 [Markdown]: http://daringfireball.net/projects/markdown/
-[WordPress]: http://wordpress.org/

@@ -4,16 +4,25 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
+markdown: rdiscount
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Fanbin's Home
-tagline: Site Tagline
+title : 凡文
+tagline: 文虽凡，思不停
+
+# custom:
+#     category:
+#         default: Default
+#     categories:
+#       - name:  default
+#         title: Default
+
 meta:
   author :
-    name : Fanbin Kong
+    name : Fanbin
     email : kfbuniversity@gmail.com
     github : dinosaurkfb
     twitter : dinosaurkfb

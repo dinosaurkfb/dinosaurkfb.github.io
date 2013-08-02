@@ -1,4 +1,4 @@
 <header>
-	<h1>{% if page.title %}<a href="/" class="minor">{{ site.name }}</a> / {{ page.title }}{% else %}{{ site.name }}{% endif %}</h1>
-	{% if page.title == null %}<p class="additional">{{ site.desc }}</p>{% endif %}
+	<h1>{% if page.title %}<a href="/" class="minor">{{ site.title }}</a> / {{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+	{% if page.title == null %}<p class="additional">{{ site.tagline }}</p>{% endif %}
 </header>

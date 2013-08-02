@@ -17,16 +17,32 @@ Usage:
   This helper can be seen in use at: ../_layouts/default.html
 -->{% endcomment %}
 
+{% assign MAX_FONT = 20 %}
+{% assign MAX_CNT = 20 %}
+{% assign BASE_FONT = 8 %}
+{% assign RANGE = MAX_FONT | minus: BASE_FONT %}
+
+
 {% if site.JB.tags_list.provider == "custom" %}
   {% include custom/tags_list %}
 {% else %}
   {% if tags_list.first[0] == null %}
     {% for tag in tags_list %} 
-    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref">{{ tag }} <span>{{ site.tags[tag].size }}</span></a></li>
+	{% if site.tags[tag].size > MAX_CNT %}
+	{% assign font_size = MAX_FONT %}
+	{% else %}
+	{% assign font_size = site.tags[tag].size | times: RANGE | divided_by: MAX_CNT | plus: BASE_FONT %}
+	{% endif %}
+    	<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag }}-ref" style="font-size:{{font_size}}pt;">{{ tag }} <span>{{ site.tags[tag].size }}</span></a>
     {% endfor %}
   {% else %}
     {% for tag in tags_list %} 
-    	<li><a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref">{{ tag[0] }} <span>{{ tag[1].size }}</span></a></li>
+	{% if tag[1].size > MAX_CNT %}
+	{% assign font_size = MAX_FONT %}
+	{% else %}
+	{% assign font_size = tag[1].size | times: RANGE | divided_by: MAX_CNT | plus: BASE_FONT %}
+	{% endif %}
+	<a href="{{ BASE_PATH }}{{ site.JB.tags_path }}#{{ tag[0] }}-ref" style="font-size:{{font_size}}pt;" title="{{ tag[1].size }} posts">{{ tag[0] }}<span></span></a>
     {% endfor %}
   {% endif %}
 {% endif %}
