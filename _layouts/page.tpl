@@ -45,7 +45,7 @@
 	  {% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 	  <figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 	</figure>
-	<p>少年时轻文重理，愚不可及，年至而立，所思甚多，然阅世不深，学识浅薄，胸中虽有万言，笔下却无一策，如之奈何？弃之纵之，苟活一世？今之人寿，耄耋非希，吾年未半，何敢言弃！当开博著文，慎思笃行，不枉此生</p>
+	<p>一介平凡的布衣，竟也想发出自己的声音</p>
       </div>
       
       <div class="block block-tags">
