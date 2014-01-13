@@ -88,7 +88,7 @@ LPC17xx 系列仍然有多个子集，目前有 LPC175x，LPC176x，LPC178x等�
 下一步工作就是在 lpc176x\_port 分支上进行针对 LPC176x 平台的长期开发，提交代码。
 
 #### 代码的编译
-安装好编译环境（参见 [ChibiOS 开发环境搭建一-编译环境篇]({{ site.url }}/2014/01/13/ChibiOSEnvironment_1_dev)）后, 切换到此目录
+安装好编译环境（参见 *[ChibiOS 开发环境搭建一-编译环境篇]({{ site.url }}/2014/01/13/ChibiOSEnvironment_1_dev)*）后, 切换到此目录
 
 `ChibiOS-RT\testhal\LPC17xx\IRQ_STORM`
 
