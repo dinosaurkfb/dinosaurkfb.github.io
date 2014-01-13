@@ -90,9 +90,10 @@ article h6,
 article p{margin:.8em 0;}
 article h1{font-size:1.6em;}
 article h2{font-size:1.6em;font-weight:bold;color:#555}
-article .article-content h1{font-size:1.3em;font-weight:bold;}
-article .article-content h2{font-size:1.1em;font-weight:bold;}
+article .article-content h1{font-size:1.4em;font-weight:bold;}
+article .article-content h2{font-size:1.2em;font-weight:bold;}
 article .article-content h3{font-size:1.0em;font-weight:bold;}
+article .article-content h4{font-size:0.9em;font-weight:bold;}
 article .article-content p{font-size:1.0em;font-weight:normal;}
 article p{}
 article ul,
