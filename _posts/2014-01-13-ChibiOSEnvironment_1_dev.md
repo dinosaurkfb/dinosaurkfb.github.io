@@ -7,9 +7,9 @@ tags: [ChibiOS, GNU, GCC, YAGARTO, make, git, 开发环境]
 ---
 
 #前提
-本文适用于一下场景：
+本文适用于以下场景：
 
-1. 基于官方 ChibiOS 的代码做开发（一般情况下是在某一分支下做驱动程序开发或应用程序开发）
+1. 基于官方 ChibiOS 的代码做开发（其实，支持 YAGARTO 开发环境的项目都适用，这里不做列举）
 2. 使用 GCC 工具链进行开发工作
 3. 使用 Git 做版本管理和团队协作
 
@@ -74,7 +74,7 @@ Windows 系统默认没有 make，所以现在也需要安装，make 的下载�
 ![env3]({{ site.url }}/images/env3.jpg)
 
 
-## 五. 定制安装请慎重
+## 定制安装请慎重
 上述安装方法不是唯一的方法，但是此安装过程已经过测试验证，如果您想定制，那我提醒一下需要注意的问题
 
 1. 安装路径避免有空格、中文字符或者括号，最保险的就是英文、数字和下划线。
@@ -85,3 +85,7 @@ Windows 系统默认没有 make，所以现在也需要安装，make 的下载�
 	make: Interrupt/Exception caught (code = 0xc00000fd, addr = 0x4217b3)
 
 具体的原因，感兴趣的朋友可以参考 *[这里](http://hdrlab.org.nz/articles/windows-development/make-interrupt-exception-caught-code-0xc00000fd-addr-0x4217b/)*
+
+-------------------------------------------------------------------------------
+
+*下一篇*：*[ChibiOS 开发环境搭建之二 - maintainer 篇]({{ site.url }}/2014/01/13/ChibiOSEnvironment_2_maintainer/)*
