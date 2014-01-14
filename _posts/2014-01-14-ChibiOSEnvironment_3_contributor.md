@@ -71,7 +71,7 @@ tags: [ChibiOS, git, 开发环境]
 
 可以看到其中有个分支叫 lpc17xx\_dev ，这个分支就是由 maintainer 基于 stable\_2.6.x 分支创建的， contributor 只需基于 lpc17xx\_dev 分支进行后续的开发工作。
 
-### 1. checkout 远程的开发分支到本地分支
+### 2. checkout 远程的开发分支到本地分支
 
 	E:\work\ChibiOS-RT> git checkout -b lpc17xx_dev  origin/lpc17xx_dev
 
@@ -92,7 +92,7 @@ LPC17xx 系列仍然有多个子集，目前有 LPC175x，LPC176x，LPC178x等�
 
 `ChibiOS-RT\testhal\LPC17xx\IRQ_STORM`
 
-然后执行 make 即可：
+然后执行 make 即可（下面示例中的部分输出信息已省略）：
 
 	E:\work\ChibiOS-RT\testhal\LPC17xx\IRQ_STORM> make
 	Compiler Options
@@ -116,7 +116,9 @@ LPC17xx 系列仍然有多个子集，目前有 LPC175x，LPC176x，LPC178x等�
 	Creating build/ch.dmp
 	Done	
 
-### 3. 合并 lpc176x_port 分支的提交信息到 lpc17xx_dev 分支
+编译完成后，输出文件位于所在编译目录下的 build 目录。
+
+### 4. 合并 lpc176x_port 分支的提交信息到 lpc17xx_dev 分支
 lpc176x\_port 分支上的代码经测试基本稳定，并兼容 LPC17xx 系列的其他平台时就可以合并到 lpc17xx\_dev 分支。
 
 首先，需要切换至 lpc17xx_dev 分支：
@@ -144,7 +146,7 @@ lpc176x\_port 分支上的代码经测试基本稳定，并兼容 LPC17xx 系列
 	create mode 100644 os/ports/GCC/ARMCMx/LPC17xx/vectors.c
 	...
 
-### 4. 推送至远程仓库
+### 5. 推送至远程仓库
 由于是与团队其他成员共同开发 lpc17xx\_dev 分支，所以需要将合并后的代码推送至远程仓库，分享给其他团队成员。
 
 当然，这之前，应该先看看别人是否也有推送提交，如果有那么应该先将别人的代码合并后再推送自己的代码。
