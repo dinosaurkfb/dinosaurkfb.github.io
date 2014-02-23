@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "ChibiOS 开发环境搭建之二 - Contributor 篇"
+title: "ChibiOS 开发环境搭建之三 - Contributor 篇"
 description: ""
 category: 
 tags: [ChibiOS, git, 开发环境]
@@ -175,6 +175,10 @@ lpc176x\_port 分支上的代码经测试基本稳定，并兼容 LPC17xx 系列
 	create mode 100644 boards/ZLG_1766/board.h
 	create mode 100644 boards/ZLG_1766/board.mk
 	...
+
+当然，合并之前也可以先看看远程分支有哪些更新:
+
+	git diff lpc17xx_dev origin/lpc17xx_dev
 
 这次合并很顺利，没有冲突，如果有冲突，那么需要解决冲突后再推送。下面是推送过程：
 
