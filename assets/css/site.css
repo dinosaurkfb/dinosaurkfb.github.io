@@ -89,12 +89,14 @@ article h5,
 article h6,
 article p{margin:.8em 0;}
 article h1{font-size:1.6em;}
-article h2{font-size:1.6em;font-weight:bold;color:#555}
+article h2{font-size:1.5em;font-weight:bold;color:#555}
+article ht{font-size:1.1em;font-weight:bold;margin:.1em 0em;line-height:0.2em;color:#555;}
 article .article-content h1{font-size:1.4em;font-weight:bold;}
 article .article-content h2{font-size:1.2em;font-weight:bold;}
 article .article-content h3{font-size:1.0em;font-weight:bold;}
 article .article-content h4{font-size:0.9em;font-weight:bold;}
 article .article-content p{font-size:1.0em;font-weight:normal;}
+article .article-content a{font-size:0.9em;font-style: italic;}
 article p{}
 article ul,
 article ol{padding-left:2em;}
@@ -111,7 +113,7 @@ article td{background:#fff;}
 article table a{margin:0;}
 article blockquote{line-height:1.6em; margin:1em 0 1em 1.5em; border-left:2px solid #eee; padding-left:1em; font-size:90%;}
 
-article .meta{line-height:1.6em; font-size:80%; margin:0.5em 0 2em 0; color:#999;}
+article .meta{line-height:1.2em; font-size:80%; margin:0.5em 0 2em 0; color:#999;}
 article .meta a{color:#999;}
 article .meta a:hover{color:#147;}
 

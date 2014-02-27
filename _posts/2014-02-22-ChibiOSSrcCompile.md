@@ -7,7 +7,6 @@ tags: [ChibiOS, RTOS, 源代码, ISP, IAP, 编译]
 ---
 
 
-#适用场景
 本文适用于以下场景：
 
 1. 基于 ChibiOS 做嵌入式应用开发
@@ -17,6 +16,8 @@ tags: [ChibiOS, RTOS, 源代码, ISP, IAP, 编译]
 
 下面我们拿其中一个目录来讲解一下，如何开始编译、开发这套代码，如果你要开始一个新项目，那么只需要找一个最接近你硬件平台的这样一个目录为模板，拷贝后修改一下不一致的地方就可以了。以 demos、testhal 下的子目录为模板都可以，这里我们以 testhal\LPC17xx\1768\I2C 为例进行讲解：
 
+<!--more-->
+ 
 	E:\temp\ChibiOS-RT\testhal\LPC17xx\1768\I2C>ls -1
 	
 	Makefile

@@ -2,11 +2,12 @@
 
 {% for post in list %}
 <article{% if forloop.index == 1 and preview %} content-loaded="1"{% endif %}>
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <ht><a href="{{ post.url }}">{{ post.title }}</a></ht>
   {% include meta.tpl %}
   <div class="article-content">
     {% if forloop.index == 1 and preview and post.layout == 'post' %}
-    {{ post.content }}
+    {{ post.content | split:'<!--more-->' |first }}
+    ... ... <a href="{{ post.url }}">继续阅读</a>
     {% endif %}
   </div>
 </article>
