@@ -6,7 +6,6 @@ category:
 tags: [ChibiOS, GNU, GCC, YAGARTO, make, git, 开发环境]
 ---
 
-#前提
 本文适用于以下场景：
 
 1. 基于官方 ChibiOS 的代码做开发（其实，支持 YAGARTO 开发环境的项目都适用，这里不做列举）

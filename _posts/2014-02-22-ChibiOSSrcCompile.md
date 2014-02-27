@@ -6,7 +6,6 @@ category:
 tags: [ChibiOS, RTOS, 源代码, ISP, IAP, 编译]
 ---
 
-
 本文适用于以下场景：
 
 1. 基于 ChibiOS 做嵌入式应用开发

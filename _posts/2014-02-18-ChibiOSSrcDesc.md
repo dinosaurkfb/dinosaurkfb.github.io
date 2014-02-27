@@ -6,8 +6,6 @@ category:
 tags: [ChibiOS, RTOS, 源代码]
 ---
 
-
-#适用场景
 本文适用于以下场景：
 
 1. 基于 ChibiOS 做嵌入式应用开发
