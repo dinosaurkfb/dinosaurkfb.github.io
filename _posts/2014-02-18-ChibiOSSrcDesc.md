@@ -159,7 +159,7 @@ os 目录是 ChibiOS/RT 最核心的代码，其子目录含义如下：
 	ports       操作系统中跟硬件平台、编译器相关的代码
 	various     操作系统的其他辅助模块
 
-os 目录的详细介绍见这篇文章：*[ChibiOS 内核代码简介]({{ site.url }}/2014/02/24/ChibiOSCoreDesc/)*
+os 目录的详细介绍见这篇文章：*[ChibiOS 内核代码简介]({{ site.url }}/2014/03/02/ChibiOSCoreDesc/)*
 
 ### private 目录
 
