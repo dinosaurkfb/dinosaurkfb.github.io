@@ -174,8 +174,8 @@ maintainer 需要跟踪官方仓库的更新，所以需要把官方的远程仓
 	git merge --abort
 	
 这条命令撤销了刚刚的合并。那么正确的做法应该是怎样的呢？我是这样做的，创建一个 stable\_2.6.x\_merge 分支来用于合并代码。
+
 	E:\work\ChibiOS-RT> git checkout -b stable_2.6.x_merge origin/stable_2.6.x
-	
 	Branch stable_2.6.x_merge set up to track remote branch stable_2.6.x from origin.
 	Switched to a new branch 'stable_2.6.x_merge'
 

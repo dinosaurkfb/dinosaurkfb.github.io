@@ -14,8 +14,6 @@ tags: [ChibiOS, RTOS, core]
 
 前面两篇讲了整个 ChibiOS 源码的整体结构和如何编译开发，下面这篇呢，围绕着操作系统的核心展开一些论述，看看一个典型的操作系统的内核构成：
 
-<!--more-->
-
 	E:\temp\ChibiOS-RT\os>ls -1
 	hal
 	kernel
